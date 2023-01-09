@@ -107,10 +107,6 @@ variable "disable_autoscaling" {
   description = "Flag to disable autoscaling service"
 }
 
-variable "sns_topic_arn" {
-  description = "Sns topic to trigger status into slack channel"
-}
-
 variable "ecr_image_url" {
   description = "ECR docker image"
 }
